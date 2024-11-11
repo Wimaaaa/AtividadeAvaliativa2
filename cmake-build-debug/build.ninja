@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/berna/CLionProjects/Reader/cmake-build-debug/
 
 build cmake_object_order_depends_target_Reader: phony || .
 
-build CMakeFiles/Reader.dir/Readers/readers.c.obj: C_COMPILER__Reader_unscanned_Debug C$:/Users/berna/CLionProjects/Reader/Readers/readers.c || cmake_object_order_depends_target_Reader
-  DEP_FILE = CMakeFiles\Reader.dir\Readers\readers.c.obj.d
+build CMakeFiles/Reader.dir/Readers/Reader.c.obj: C_COMPILER__Reader_unscanned_Debug C$:/Users/berna/CLionProjects/Reader/Readers/Reader.c || cmake_object_order_depends_target_Reader
+  DEP_FILE = CMakeFiles\Reader.dir\Readers\Reader.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Reader.dir
   OBJECT_FILE_DIR = CMakeFiles\Reader.dir\Readers
@@ -63,7 +63,7 @@ build CMakeFiles/Reader.dir/Readers/readers.c.obj: C_COMPILER__Reader_unscanned_
 #############################################
 # Link the executable Reader.exe
 
-build Reader.exe: C_EXECUTABLE_LINKER__Reader_Debug CMakeFiles/Reader.dir/Readers/readers.c.obj
+build Reader.exe: C_EXECUTABLE_LINKER__Reader_Debug CMakeFiles/Reader.dir/Readers/Reader.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Reader.dir

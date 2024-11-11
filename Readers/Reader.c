@@ -8,7 +8,7 @@ int readers = 0;
 void *reader(void *arg) {
     long id = (long)arg;
 
-    //
+    //incrementa o contador de threads de leitura
     pthread_mutex_lock(&resource_lock);
     readers++;
     pthread_mutex_unlock(&resource_lock);
@@ -44,6 +44,8 @@ void *writer(void *arg) {
 
 int main() {
     pthread_t readers[5], writers[3];
+
+
     for (long i = 0; i < 5; i++) {
         pthread_create(&readers[i], NULL, reader, (void *)i);
     }

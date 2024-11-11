@@ -10,7 +10,7 @@ pthread_mutex_t lock2 = PTHREAD_MUTEX_INITIALIZER;
 void *thread_func(void *arg) {
     int thread_id = *(int *)arg;
 
-    // Ordem de bloqueio: sempre lock1 seguido de lock2
+    // ordem de bloqueio: sempre lock1 seguido de lock2
     pthread_mutex_lock(&lock1);
     printf("Thread %d bloqueou lock1\n", thread_id);
     usleep(100000); // Pequeno atraso para demonstrar o uso dos locks
@@ -18,10 +18,10 @@ void *thread_func(void *arg) {
     pthread_mutex_lock(&lock2);
     printf("Thread %d bloqueou lock2\n", thread_id);
 
-    // Seção crítica simulada
+    // seção crítica simulada
     printf("Thread %d esta executando na secao critica\n", thread_id);
 
-    // Desbloqueia na ordem inversa
+    // desbloqueia na ordem inversa
     pthread_mutex_unlock(&lock2);
     printf("Thread %d liberou lock2\n", thread_id);
 

@@ -15,7 +15,10 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -30,7 +33,10 @@
 					"name" : "Reader",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -38,9 +44,30 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "Barrier::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Barrier-Debug-006fde7b34156df858c0.json",
+					"name" : "Barrier",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Locks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Locks-Debug-d9b552d55c2b0c6abf93.json",
+					"name" : "Locks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Reader::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Reader-Debug-54cf10ae36681ec19d31.json",
+					"jsonFile" : "target-Reader-Debug-38bb4e19f14f895fda2d.json",
 					"name" : "Reader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Signal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Signal-Debug-1d229a18a3a9135d7179.json",
+					"name" : "Signal",
 					"projectIndex" : 0
 				}
 			]

@@ -1,3 +1,6 @@
 C:/Users/berna/CLionProjects/Reader/cmake-build-debug/CMakeFiles/Reader.dir
+C:/Users/berna/CLionProjects/Reader/cmake-build-debug/CMakeFiles/Barrier.dir
+C:/Users/berna/CLionProjects/Reader/cmake-build-debug/CMakeFiles/Signal.dir
+C:/Users/berna/CLionProjects/Reader/cmake-build-debug/CMakeFiles/Locks.dir
 C:/Users/berna/CLionProjects/Reader/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/berna/CLionProjects/Reader/cmake-build-debug/CMakeFiles/rebuild_cache.dir
